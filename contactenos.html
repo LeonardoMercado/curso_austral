@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Test Page</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+        <a href="#" class="navbar-brand">Mis Hoteles</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">Nosotros</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Precios</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Términos y condiciones</a></li>
+                <li class="nav-item"><a href="contactenos.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section>        
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Contactenos</h1>                
+              </div>
+            </div>
+        </section>          
+    <section>  
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <p>Usted esta en: </p><li class="breadcrumb-item"><a href="index.html"> Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">contactenos</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Envianos tu comentarios:</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-sm-6 offset-sm-3">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group col-sm-6 offset-sm-3">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                    </div>
+                    <div class="form-group col-sm-6 offset-sm-3">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                    </div>
+                    <div class="form-group col-sm-6 offset-sm-3">
+                        <label for="ciudad">Ciudad</label>
+                        <select id="ciudad" class="form-control">
+                            <option value="1">Bogotá D.C</option>
+                            <option value="2">Arauca</option>
+                            <option value="3">Medellín</option>
+                        </select>
+                    </div>
+                </div>                
+                <div class="row">
+                    <div class="form-group mr-auto text-center">
+                        <label for="comentario">Comentario</label><br>
+                        <textarea name="texto" id="comentario" cols="30" rows="10" placeholder="ingrese su comentario" style="resize: none;"></textarea>
+                    </div>                    
+                </div>
+                <div class="form-group col-sm-12 offset-sm-5">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="acepto">
+                        <label for="acepto" class="form-check-label">Acepto</label>
+                    </div>
+                </div>                
+                <br>
+                <div class="row">
+                    <div class="form-group col-sm-4 offset-sm-5">
+                        <button type="submit" class="btn btn-outline-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-upload" viewBox="0 0 16 16">
+                                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                                <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
+                              </svg>
+                              Enviar
+                        </button>
+                    </div>
+                </div>                
+            </form>
+        </div>        
+    </section>
+     
+        <!--FOOTER-->
+        <section>
+            <div class="container" style="text-align: center;">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3 style="text-align: center;">contactenos</h3>
+                        <p>Telefono</p>
+                        <p>Correo</p>
+                        <address>Direccion</address>
+                    </div>
+                    <div class="col-sm-6 align-self-center">
+                        <h3 style="text-align: center;">Siganos</h3>
+                        <p>Instagram</p>
+                        <p>Facebook</p>
+                        <p>Github</p>
+                    </div>                    
+                </div>
+            </div>            
+        </section>
+        
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
