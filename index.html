@@ -28,27 +28,35 @@
         </div>
     </nav>     
         <section>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col align-self-start">
-                        <div class="jumbotron margin-top-100">
-                            <h1 class="display-4">Hoteles!</h1>
-                            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                            <hr class="my-4">
-                            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                            <p class="lead">
-                              <a class="btn btn-outline-primary" href="#" role="button">Learn more</a>
-                            </p>
-                          </div>
+            <div style="background-image: url(../img/img_home.jpg);">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col align-self-start">
+                            <div class="jumbotron margin-top-100" style="color: black;width: 700;">                                
+                                    <h1 class="display-4">Conosca el mundo!</h1>
+                                    <p class="lead" style="color: white;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                                    <hr class="my-4">
+                                    <p style="color: white;">It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                                    <p class="lead">
+                                    <a class="btn btn-primary" href="#intro" role="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+                                        <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                                        <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                      </svg>
+                                      Mira nuestos hoteles</a>
+                                    </p>                                
+                                                        
+                              </div>
+                        </div>
                     </div>
-                </div>
-            </div>            
+                </div>       
+            </div>                 
         </section>
         <section>   
             <div class="container">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                      <p>Usted esta en: <span style="color: white;">.</span> </p><li class="breadcrumb-item active"><a href="index.html"> Home</a></li>                      
+                      <p  id="intro">Usted esta en: <span style="color: white;">.</span> </p><li class="breadcrumb-item active"><a href="index.html"> Home</a></li>                      
                     </ol>
                 </nav>
             </div>
@@ -61,13 +69,13 @@
                       <div class="card shadow-sm">
                         <img src="img/hotel_1.jpg" alt="Colombia"  width="250px" height="300px" class="card-img-top">
                         <div class="card-body">
-                            <h4 class="card-title">Colombia</h4>
+                            <h4 class="card-title">Colombia <span class="badge bg-success">Nuevo</span></h4>
                             <h6 class="text-muted">Cundinamarca</h6>
                           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group mx-auto">
-                              <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
-                              <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                             </div>                            
                           </div>
                         </div>
@@ -81,9 +89,9 @@
                               <h6 class="text-muted">Carabobo</h6>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
-                              <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
+                              <div class="btn-group mx-auto">                                
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
@@ -98,8 +106,8 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
@@ -109,13 +117,13 @@
                         <div class="card shadow-sm">
                           <img src="img/hotel_4.jpg" alt="Perú"  width="250px" height="300px" class="card-img-top">
                           <div class="card-body">
-                              <h4 class="card-title">Perú</h4>
+                              <h4 class="card-title">Perú <span class="badge bg-warning">45% off</span></h1></h4>
                               <h6 class="text-muted">Lorem</h6>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
@@ -130,8 +138,8 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
@@ -146,8 +154,8 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
@@ -162,8 +170,8 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
@@ -178,8 +186,8 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
@@ -194,8 +202,8 @@
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group mx-auto">
-                                <button type="button" class="btn btn-sm btn-outline-primary">Apartar</button>
                                 <button type="button" class="btn btn-sm btn-outline-primary">Ver más</button>
+                                <button type="button" class="btn btn-sm btn-outline-primary active">Apartar</button>
                               </div>                            
                             </div>
                           </div>
